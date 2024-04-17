@@ -1,0 +1,111 @@
+*{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.dt-control .dt-column-order::before{
+    content: '' !important;
+}
+
+table.dataTable td.dt-control:before{
+    color: white;
+}
+
+
+h3.nested-edu-header{
+    font-weight: 200;
+}
+
+body{
+    background-color: #352f5b;
+    background-repeat: no-repeat;
+}
+
+h2.stud-header{
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+table{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.border-bottom, tr{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.096) !important;
+}
+
+
+.btn{
+    border-radius: 3rem;
+}
+
+.btn-close{
+    border: none !important;
+    outline: none !important;
+}
+
+i.icon{
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.modal-content, .modal-header, .modal-footer{
+    background-color: #352f5b;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.096) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.096) !important;
+}
+
+
+
+/* Styles For The Form Start */
+
+*{
+    font-family: 'Poppins';
+    color: white;
+}
+
+*::placeholder{
+    color: white;
+}
+
+body{
+    background-color: #352f5b;
+    background-repeat: no-repeat;
+}
+ 
+.border-bottom{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.096) !important;
+}
+
+input, textarea{
+    color-scheme: dark;
+    background-color: rgba(0,0,0,0.2) !important;
+    border: none !important;
+    color: white !important;
+}
+
+
+.btn{
+    border-radius: 3rem;
+}
+
+h2.stud-form-header{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px){
+    div.me-2{
+        width: 100%;
+    }
+}
+
+/* Styles For The Form End */
